@@ -2809,8 +2809,8 @@ html.no-csstransitions .home-content__main {
     margin: 0 auto 1.2rem auto;
 }
 .clients-testimonials .team__avatar {
-    height: 50%;
-    width: 50%;
+    height: 350%;
+    width: 35%;
     border-radius: 50%;
     margin: 0 auto 1.2rem auto;
 }
@@ -3525,6 +3525,10 @@ footer .row {
 
 .go-top a:hover, .go-top a:focus {
     color: #FFFFFF;
+}
+.smaller__P{
+    font-size:  56% !important;
+    margin-bottom: 21px !important;
 }
 
 
