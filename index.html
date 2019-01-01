@@ -28,6 +28,35 @@
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
+ <!-- Start of Async Drift Code -->
+ <script>
+  "use strict";
+
+  !function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+ }();
+ drift.SNIPPET_VERSION = '0.3.1';
+ drift.load('e2ziig9yagvh');
+ </script>
+ <!-- End of Async Drift Code -->
+
 
     <!-- favicons
     ================================================== -->
@@ -64,7 +93,10 @@
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
     
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+                <p>Oweb is an innovative website Design and ICT company based in OAU, ile-ife, Nigeria. At Oweb
+We work as a team to create beautiful and engaging digital experience. 
+We help businesses to leverage technology to save cost and increase profit. 
+We are committed to delivering only the best. .</p>
     
                 <ul class="header-nav__social">
                     <li>
@@ -75,12 +107,6 @@
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
                     </li>
                 </ul>
 
@@ -147,12 +173,6 @@
             </li>
             <li>
                 <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
             </li>
         </ul> 
         <!-- end home-social -->
@@ -384,19 +404,19 @@
     
                             <div class="item-folio__text">
                                 <h3 class="item-folio__title">
-                                    Shutterbug
+                                    milesentertainment
                                 </h3>
                                 <p class="item-folio__cat">
-                                    Branding
+                                    Web Developement
                                 </p>
                             </div>
     
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <a href="https://www.djmiles.com.ng/" class="item-folio__project-link" title="Project link">
                                 <i class="icon-link"></i>
                             </a>
     
                             <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                                <p>The Offical website to get latest info, music and music video of Miles Entertainment Brand.</p>
                             </div>
     
                         </div>
@@ -566,7 +586,7 @@
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">Our Clients</h3>
-                <h1 class="display-2">Glint has been honored to
+                <h1 class="display-2">OWEB has been honored to
                 partner up with these clients</h1>
             </div>
         </div> <!-- end section-header -->
@@ -594,40 +614,36 @@
 
                     <div class="testimonials__slide">
 
-                        <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum. 
-                        Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.
-                        Excepturi nam cupiditate culpa doloremque deleniti repellat.</p>
+                        <p>Team OWEB has been quite impressive in delivering for us at Miles Entertainment, a modern, clean and standard website for our customers. Despite the short timeline given to them, they were able to come up with flawless designs and an agile solution that better propagates our brand.</p>
 
                         <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
                         <div class="testimonials__info">
-                            <span class="testimonials__name">Tim Cook</span> 
-                            <span class="testimonials__pos">CEO, Apple</span>
+                            <span class="testimonials__name">Dj Miles</span> 
+                            <span class="testimonials__pos">CEO, Miles Entertainment</span>
                         </div>
 
                     </div>
 
                     <div class="testimonials__slide">
                         
-                        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                        Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+                        <p>Great service! Second time using them and They still got me impressed again. They give your brand the online presence it truely deserve.</p>
 
                         <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
                         <div class="testimonials__info">
-                            <span class="testimonials__name">Sundar Pichai</span> 
-                            <span class="testimonials__pos">CEO, Google</span>
+                            <span class="testimonials__name">Itansanmi Ayomidimeji</span> 
+                            <span class="testimonials__pos">CEO, Ollyconcept Modeling</span>
                         </div>
 
                     </div>
 
                     <div class="testimonials__slide">
                         
-                        <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+                        <p>OWEB spares no effort in achieving companies’ objectives, with very dedicated and hard working team members.</p>
 
                         <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
                         <div class="testimonials__info">
                             <span class="testimonials__name">Satya Nadella</span> 
-                            <span class="testimonials__pos">CEO, Microsoft</span>
+                            <span class="testimonials__pos">CEO, Wummies Footware</span>
                         </div>
 
                     </div>
@@ -727,6 +743,7 @@
                         <h5>Call Us At</h5>
                         <p>
                             Phone: (+234) 8066977361<br>
+                            Phone: (+234) 7068093818
                         </p>
                     </div>
 
@@ -739,12 +756,6 @@
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
                         </li>
                     </ul> <!-- end contact-social -->
 
@@ -765,8 +776,7 @@
             <div class="col-twelve">
 
                 <div class="footer-logo"></div>
-                Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
-
+                Oweb is an innovative website Design and ICT company based in OAU, ile-ife, Nigeria. At Oweb We work as a team to create beautiful and engaging digital experience. We help businesses to leverage technology to save cost and increase profit. We are committed to delivering only the best. .
             </div>
 
 
