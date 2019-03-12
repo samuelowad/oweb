@@ -8,6 +8,7 @@ if($_POST) {
 
     $name = trim(stripslashes($_POST['contactName']));
     $email = trim(stripslashes($_POST['contactEmail']));
+    $phone = trim(stripslashes($_POST['contactPhone']));
     $subject = trim(stripslashes($_POST['contactSubject']));
     $contact_message = trim(stripslashes($_POST['contactMessage']));
     $message = "";
@@ -20,6 +21,9 @@ if($_POST) {
     // Check Email
     if (!preg_match('/^[a-z0-9&\'\.\-_\+]+@[a-z0-9\-]+\.([a-z0-9\-]+\.)*+[a-z]{2}/is', $email)) {
         $error['email'] = "Please enter a valid email address.";
+    // Check Phone
+    if (!preg_match('0-9is', $phone)) {
+        $error['phone'] = "Please enter a valid Phone Number.";
     }
     // Check Message
     if (strlen($contact_message) < 15) {

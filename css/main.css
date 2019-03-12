@@ -3497,7 +3497,7 @@ footer .row {
 .go-top {
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    left: 70px;
     z-index: 600;
     display: none;
 }
@@ -3578,7 +3578,7 @@ footer .row {
         display: none;
     }
     .go-top {
-        right: 0;
+        left: 0;
         bottom: 0;
     }
 }
